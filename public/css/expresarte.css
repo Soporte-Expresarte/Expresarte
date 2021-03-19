@@ -1,0 +1,50 @@
+.text-exp-naranja {
+    opacity: 1;
+    color: #ff4606;
+}
+
+.text-exp-azul {
+    opacity: 1;
+    color: #0066cc;
+}
+
+.bg-exp-naranja {
+    background-color: #ff4606;
+}
+.hover\:bg-exp-naranja:hover {
+    --bg-opacity: 1;
+    background-color: #ff4606;
+    background-color: rgba(255, 70, 6, var(--bg-opacity));
+}
+.focus\:bg-exp-naranja:focus {
+    --bg-opacity: 1;
+    background-color: #ff4606;
+    background-color: rgba(255, 70, 6, var(--bg-opacity));
+}
+
+.bg-exp-naranja-claro {
+    background-color: #f0d4cc;
+}
+.hover\:bg-exp-naranja-claro:hover {
+    --bg-opacity: 1;
+    background-color: #f0d4cc;
+    background-color: rgba(240, 212, 204, var(--bg-opacity));
+}
+
+.bg-exp-azul {
+    background-color: #0066cc;
+}
+.hover\:bg-exp-azul:hover {
+    --bg-opacity: 1;
+    background-color: #0066cc;
+    background-color: rgba(0, 102, 204, var(--bg-opacity));
+}
+
+.bg-exp-azul-claro {
+    background-color: #ccd4ec;
+}
+.hover\:bg-exp-azul-claro:hover {
+    --bg-opacity: 1;
+    background-color: #ccd4ec;
+    background-color: rgba(204, 212, 236, var(--bg-opacity));
+}

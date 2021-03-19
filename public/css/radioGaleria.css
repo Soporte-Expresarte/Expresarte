@@ -1,0 +1,70 @@
+@charset "UTF-8";
+.middleG {
+  width: 100%;
+  text-align: center;
+}
+.middleG input[type=radio] {
+  display: none;
+}
+.middleG input[type=radio]:checked + .boxG {
+  background-color: #ff7c3d;
+}
+.middleG input[type=radio]:checked + .boxG span {
+  color: #000;
+  transform: translateY(70px);
+}
+.middleG input[type=radio]:checked + .boxG span:before {
+  transform: translateY(0px);
+  opacity: 1;
+}
+.middleG .boxG {
+  width: 100%;
+  height: 70px;
+  background-color: #fff;
+  transition: all 250ms ease;
+  will-change: transition;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  font-family: "Montserrat";
+  font-weight: 750;
+}
+.middleG .boxG:active {
+  transform: translateY(10px);
+}
+.middleG .boxG span {
+  position: relative;
+  transform: translate(0, 60px);
+  left: 0;
+  right: 0;
+  transition: all 300ms ease;
+  font-size: 1.3em;
+  user-select: none;
+  color: #ff4606;
+}
+.middleG .boxG span:before {
+  font-size: 1em;
+  font-family: FontAwesome;
+  display: block;
+  transform: translateY(-50px);
+  opacity: 0;
+  transition: all 300ms ease-in-out;
+  font-weight: normal;
+  color: #000;
+}
+.middleG .aprobar-obras span:before {
+     content: "";
+ }
+.middleG .aprobar-eventos span:before {
+      content: "";
+  }
+.middleG .datos-artista span:before {
+    content: "";
+}
+.middleG .ver-obras span:before {
+    content: "";
+}
+.middleG .ver-eventos span:before {
+    content: "";
+}

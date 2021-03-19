@@ -1,0 +1,83 @@
+.container-slider {
+    max-width: 700px;
+    padding: 10px;
+}
+
+.custom-slide-height {
+  height: auto;
+}
+
+/* .custom-wrapper-transform {
+  transform: translate3d(0px, 0px, 0px) !important;
+} */
+
+/* galleryTop */
+.gallery .swiper-slide {
+  cursor: pointer;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+/* thumbs */
+.gallery-thumbs .swiper-slide {
+  width: auto;
+  border-radius: 10px;
+  opacity: 0.8;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.gallery-thumbs .swiper-slide-active {
+  opacity: 1;
+  -webkit-filter: initial; /* Safari 6.0 - 9.0 */
+  filter: initial;
+  font-weight: bold;
+  color: #231b93;
+}
+
+.gallery-thumbs img {
+  cursor: pointer;
+  width: auto;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: contain;
+}
+
+/* buttons */
+.swiper-button-next {
+  width: 50%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  padding-right: 15px;
+  opacity: 0.2;
+  -webkit-transition: opacity 0.6s; /* For Safari 3.1 to 6.0 */
+  transition: opacity 0.6s;
+}
+
+.swiper-button-prev {
+  width: 50%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  padding-left: 15px;
+  opacity: 0.2;
+  -webkit-transition: opacity 0.6s; /* For Safari 3.1 to 6.0 */
+  transition: opacity 0.6s;
+}
+
+.swiper-button-prev:hover, .swiper-button-next:hover{
+  opacity: 1;
+}
+
+.swiper-button-next:after, .swiper-container-rtl .swiper-button-next:after{
+  margin-left: auto;
+}
+
+.swiper-button-prev:after, .swiper-container-rtl .swiper-button-next:after{
+  margin-right: auto;
+}
+
